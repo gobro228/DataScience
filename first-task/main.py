@@ -2,7 +2,6 @@ import os
 
 CONTACTS_FILE = 'contacts.txt'
 
-
 def load_contacts():
     contacts = []
     if os.path.exists(CONTACTS_FILE):
